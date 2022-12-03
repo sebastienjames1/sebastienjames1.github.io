@@ -1,0 +1,149 @@
+nav.top-nav {
+    background-color: orange;
+    position: fixed;
+    width: 150px;
+    margin-top: 70px;
+    margin-left: 20px;
+    height: 500px;
+    
+}
+
+
+
+body {
+    background-color: #910;
+    color:#186296;
+}
+
+main {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 70px;
+    padding: 70px;
+    background-color: #f9f9f9;
+    
+}
+nav.top-nav ul {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+
+nav.top-nav li {
+    display: block;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 33%;
+    line-height: 150px;
+    text-align: center;
+    border: solid 2px #910;
+    user-select: none;
+}
+
+a {
+    color: #0e0b52;
+    text-decoration: underline;
+}
+
+nav.top-nav li:hover {
+    text-decoration: underline;
+}
+
+nav.top-nav ul {
+    list-style: none;
+}
+
+nav.top-nav .pulldown-menu li {
+    display: block;
+}
+
+nav.top-nav .pulldown-menu {
+    display: none;
+    position: absolute;
+    border: 1px sold white;
+    background-color: white;
+}
+
+nav.top-nav li:hover .pulldown-menu {
+    display: block;
+}
+
+nav [aria-current=page] {
+    background-color: #bbb;
+    color:  #000;
+    border-bottom: .25em solid #444;
+}
+
+
+.profile-image {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+.project {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    
+}
+
+iframe {
+    width: 600px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.projects-image {
+    height: 200px;
+    float:right;
+    margin-left: 50px;
+}
+
+.contact-form {
+    margin-top: 100px;
+}
+
+#email, #name {
+    width: 200px;
+}
+
+#message {
+    height: 200px;
+    width: 500px;
+}
+
+.caption {
+    font-style: italic;
+    text-align: center;
+}
+
+.profile {
+    padding-top: 65px;
+    margin-bottom: 30%;
+}
+
+
+.learn-more {
+    text-align: center;
+    line-height: 100px;
+    width: 20%;
+    height: auto;
+    float: right;
+    background-color: #bbb;
+}
+
+.profile-images {
+    width: 180px;
+    margin: 5px;
+}
+
+.profile-images-horiz {
+    width: 375px;
+    margin: 5px;
+}
+
